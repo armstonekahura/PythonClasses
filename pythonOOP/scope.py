@@ -9,6 +9,7 @@ def usd_to_ksh (amount):
 
 
 def scope_check (amount):
+    myVar = "Variable inside a function"
     print (f"Global Variable: {conversionUnit}")
     print (f"Local Variable: {amount}")
 
