@@ -3,7 +3,8 @@ currencyName = "Ksh"
 
 
 def usd_to_ksh (amount):
-    return (f"{amount} USD is equal to {currencyName}.{amount * conversionUnit}.")
+    if amount > 0:
+        return (f"{amount} USD is equal to {currencyName}.{amount * conversionUnit}.")
 
 
 userInput = input ("Kindly insert amount in Dollars to be converted. \nAmount    :   ")
