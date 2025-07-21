@@ -14,6 +14,8 @@ def validate_and_execute():
              print(converted_usd_to_ksh)
         elif userInputNumber == 0:
             print("⚠️  You entered a 0, kindly input a valid amount")
+        else:
+            print("⚠️  You entered a negative amount, kindly input a valid amount")
     except ValueError:
         print("\n⚠️   You didn't insert a number as the amount")
  
