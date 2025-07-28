@@ -8,7 +8,7 @@ def usd_to_ksh (amount):
 
 def validate_and_execute():
     try:
-        userInputNumber = int(userInput)
+        userInputNumber = int(amount_element)
         if userInputNumber > 0:
              converted_usd_to_ksh = usd_to_ksh(userInputNumber)
              print(converted_usd_to_ksh)
@@ -23,6 +23,6 @@ def validate_and_execute():
 userInput = ""
 while userInput != "exit":
     userInput = input ("Kindly insert amount in Dollars to be converted. \nAmount    :   ")
-    for amount in userInput:
+    for amount_element in userInput:
         validate_and_execute()
 
