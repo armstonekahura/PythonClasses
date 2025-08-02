@@ -1,6 +1,9 @@
 class geometryCalculator:
 
 
+    def rectangle(length, width):
+        area = length * width
+
     
         
     def welcome():
@@ -9,15 +12,16 @@ class geometryCalculator:
         shape = input("Insert: \nc for circle \ns for square \nr for rectangle \nt for trapezium \n\n")
 
         if shape == "c":
-            input("Kindly select\n a for area \n p for perimeter \n ")
+            name = input("sect\n a for area \n p for perimeter \n ")
+            if name == "a":
+                rectangle()
         if shape == "s":
             input("Kindly select\n a for area \n p for perimeter \n ")
         if shape == "r":
             input("Kindly select\n a for area \n p for perimeter \n ")
 
 
-    def rectangle(length, width):
-        area = length * width
+    
 
 
     welcome()
