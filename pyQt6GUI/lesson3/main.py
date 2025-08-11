@@ -37,7 +37,7 @@ class Window(QWidget):
         featureLabel.move(20, 280)
 
         modelLabel = QLabel(self)
-        modelLabel.setText("Model:      Sport")
+        modelLabel.setText("Model:      Sport, 2.2 petrol")
         modelLabel.setFont(QFont("", 14))
         modelLabel.move(20, 310)
 
