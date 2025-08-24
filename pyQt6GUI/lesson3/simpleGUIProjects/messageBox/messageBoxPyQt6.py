@@ -30,7 +30,7 @@ class Window(QMainWindow):
 
         if result == QMessageBox.StandardButton.Yes:
             print("Yes button is clicked")
-            sys.exit()
+            sys.exit(app.exec())
         else:
             print("No button is clicked")
 
